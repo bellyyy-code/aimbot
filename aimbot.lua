@@ -6,7 +6,7 @@ local player = Players.LocalPlayer
 local camera = workspace.CurrentCamera
 
 local enabled = false
-local maxStuds = 10 -- 5 блоков (в Roblox стандартный блок равен 2 студам, поэтому 5 блоков = 10 студов)
+local maxStuds = 10
 
 local function getNearestTarget()
     local char = player.Character
