@@ -6,7 +6,7 @@ local player = Players.LocalPlayer
 local camera = workspace.CurrentCamera
 
 local enabled = false
-local maxStuds = 10
+local maxStuds = 20
 
 local function getNearestTarget()
     local char = player.Character
